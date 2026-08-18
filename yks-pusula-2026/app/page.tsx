@@ -544,25 +544,7 @@ export default function Home() {
         </aside>
       </section>
 
-      <section className="method-section" id="metod">
-        <div className="method-intro">
-          <span className="eyebrow">Şeffaf hesaplama</span>
-          <h2>Sadece sonucu değil, mantığını da gösteriyoruz.</h2>
-          <p>Puan ve sıralama aynı şey değildir. Motor önce netlerinden 2026 sınav puanını, sonra resmi aday dağılımından yaklaşık sıranı bulur.</p>
-          <button type="button" onClick={() => setDetailsOpen((open) => !open)}>{detailsOpen ? "Teknik ayrıntıyı kapat" : "Teknik ayrıntıyı aç"}<span aria-hidden="true">{detailsOpen ? "−" : "+"}</span></button>
-        </div>
-        <div className="method-steps">
-          <article><span>01</span><h3>Net</h3><p>Doğru − yanlış ÷ 4</p></article>
-          <article><span>02</span><h3>Puan</h3><p>2026 test katsayıları</p></article>
-          <article><span>03</span><h3>Sıra</h3><p>Monoton kübik dağılım eğrisi</p></article>
-        </div>
-        {detailsOpen && (
-          <div className="method-details">
-            <div><strong>Neden sıralama tahmini?</strong><p>ÖSYM, aday sayılarını 20 puanlık eşiklerde yayımlar. Aradaki değerler şekli koruyan monoton kübik interpolasyonla hesaplanır; böylece sıralama her puanda düzenli ilerler ve yayımlanan eşiklerle birebir kesişir.</p></div>
-            <div><strong>2026’ya özel ne var?</strong><p>Testlerin 2026 ortalama ve standart sapmaları, iptal edilen AYT TDE–Sosyal-1 sorusu ve güncel aday sayıları hesaba katılır.</p></div>
-          </div>
-        )}
-      </section>
+      
 
       <footer>
         <div className="footer-brand"><span className="brand-mark">Y</span><div><strong>YKS Pusula</strong><small>2026 puan ve sıra hesaplama</small></div></div>
