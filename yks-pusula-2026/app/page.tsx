@@ -376,7 +376,7 @@ export default function Home() {
         <nav aria-label="Sayfa menüsü">
           <a href="#hesapla">Puan hesapla</a>
           <a href="/programlar">Program bul</a>
-          <a href="#metod">Nasıl çalışır?</a>
+         
         </nav>
         <span className="data-status"><i aria-hidden="true" /> 2026 verisi</span>
       </header>
