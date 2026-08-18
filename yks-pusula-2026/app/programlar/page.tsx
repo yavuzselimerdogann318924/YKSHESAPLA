@@ -292,7 +292,6 @@ export default function ProgramsPage() {
       <section className="program-hero">
         <div>
           <span className="eyebrow">2026 tercih pusulası</span>
-          <h1>Puan yazılı.<br /><em>Sırası bizde.</em></h1>
           <p>Üniversiteyi ve bölümü ara; listedeki taban ve tavan puanın 2026 yerleştirme dağılımında hangi sıraya denk geldiğini anında gör.</p>
         </div>
         <div className="program-stats" aria-label="Program verisi özeti">
