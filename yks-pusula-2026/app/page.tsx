@@ -389,9 +389,7 @@ export default function Home() {
           puanını ve tahmini başarı sıranı tek ekranda hesapla.
         </p>
         <div className="hero-proof" aria-label="Hesaplama özellikleri">
-          <span><b>01</b> 2026 katsayıları</span>
-          <span><b>02</b> OBP dahil</span>
-          <span><b>03</b> Anlık sıralama</span>
+         
         </div>
         <a className="hero-program-link" href="/programlar">21.493 program içinde okul ve bölüm ara <span>→</span></a>
       </section>
