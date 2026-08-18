@@ -293,6 +293,7 @@ export default function ProgramsPage() {
         <div>
           <span className="eyebrow">2026 tercih pusulası</span>
           <p>Üniversiteyi ve bölümü ara; listedeki taban ve tavan puanın 2026 yerleştirme dağılımında hangi sıraya denk geldiğini anında gör.</p>
+          <p>Designed by <strong>YAVUZ SELIM ERDOGAN</strong></p>
         </div>
         <div className="program-stats" aria-label="Program verisi özeti">
           <div><strong>21.493</strong><span>program</span></div>
