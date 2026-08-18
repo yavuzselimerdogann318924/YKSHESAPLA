@@ -371,7 +371,6 @@ export default function ProgramsPage() {
             <span className="eyebrow">2026 sonuçları</span>
             <h2>{dataset ? `${filteredPrograms.length.toLocaleString("tr-TR")} program bulundu` : "Programlar hazırlanıyor"}</h2>
           </div>
-          <div className="placement-note"><span>i</span><p>Belgelerdeki puanlar yerleştirme puanıdır. Sıralamalar aynı türün 2026 yerleştirme dağılımından tahmin edilir.</p></div>
         </div>
 
         {!dataset && !loadError && (
