@@ -385,8 +385,7 @@ export default function Home() {
         <div className="hero-kicker"><span>2026 YKS</span><span>TYT · AYT · YDT</span></div>
         <h1>Netini gir.<br /><em>Yerini gör.</em></h1>
         <p>
-          2026 test istatistikleri ve resmi puan dağılımı ile ham puanını, yerleştirme
-          puanını ve tahmini başarı sıranı tek ekranda hesapla.
+          DESIGNED BY YAVUZ SELİM ERDOGAN
         </p>
         <div className="hero-proof" aria-label="Hesaplama özellikleri">
          
