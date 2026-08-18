@@ -549,11 +549,7 @@ export default function Home() {
       <footer>
         <div className="footer-brand"><span className="brand-mark">Y</span><div><strong>YKS Pusula</strong><small>2026 puan ve sıra hesaplama</small></div></div>
         <p>Bu araç tahmin amaçlıdır; resmi sonuç belgesi yerine geçmez. Veriler 21 Temmuz 2026 tarihli ÖSYM sayısal bilgilerine dayanır.</p>
-        <div className="footer-links">
-          <a href="/programlar">Program bul</a>
-          <a href="https://cdn.osym.gov.tr/pdfdokuman/2026/YKS/SB/sayisal_ykdd21072026.pdf" target="_blank" rel="noreferrer">ÖSYM verisi</a>
-          <a href="https://yks-puan.hesaplama.net/" target="_blank" rel="noreferrer">Referans araç</a>
-        </div>
+        
       </footer>
     </main>
   );
